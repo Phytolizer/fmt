@@ -16,5 +16,6 @@ fmt_lib = static_library(
 
 fmt_dep = declare_dependency(
   link_with : fmt_lib,
+  include_directories : fmt_include,
 )
 
